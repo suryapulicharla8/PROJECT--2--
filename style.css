@@ -173,6 +173,12 @@ p {
     padding: 15px;
 }
 
+h6{
+    text-align: center;
+    margin-left: -20px;
+
+}
+
 .left-right {
     text-decoration: none;
     color: #424242;
@@ -198,14 +204,8 @@ p {
 #web-add {
     text-decoration: none;
 }
-/*  */
-#index4{
-    text-decoration: none;
-    color: #c2c2c2;
-    margin-left: 600px;
-}
 .pop-up{
-    filter: brightness(100px);
+    filter: brightness(150%);
     height: 150px;
     width: 400px;
     border:2px solid gray;
@@ -217,23 +217,25 @@ p {
 }
 .box-1 {
     float: left;
-    font-size: medium;  
+    font-size: medium;
+    color: #00A5EC;  
 }
 .p-s {
     float: right;
     margin: 5px;
     margin-left: -50px;
     color: #424242;
+    margin-top: -10px;
 }
 #target {
     color: #c2c2c2;
     background-color: #424242;
     font-size: medium;
-    margin-top: 50px;
+    float: right;
 }
 .align {
     float: right;
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: medium;
 
 }
@@ -289,10 +291,39 @@ p {
     height: 400px;
     width: 200px;
 }
-.container-box-one-box-item {
-    height: 200px;
-    width:300px;
-}
 #popup-menu {
     margin-top:950;
 }
+.abc {
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: medium;
+    margin-top: 15px;
+
+}
+#abc {
+    text-decoration: none;
+    float: right;
+    font-size: medium;
+    margin-top: -10px;
+}
+.flex-container {
+    margin-top:-500px;
+    margin-right: 300px;
+}
+#my-div-container {
+    margin-top: -720px;
+}
+lable {
+ text-align: center;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+   .container-box-one{
+    display: block;
+   } 
+}
+@media screen and (min-width:480px) and (max-width:980px) {
+    .container-box-two{
+     display: block;
+    } 
+ }
