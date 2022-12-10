@@ -1,8 +1,10 @@
 h1 {
-    top: 20px;
-    left: 0px;
-    width: 1200px;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 1000px;
     height: 50px;
+    /* padding-top: 15%; */
+    padding-left: 20%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 20px #7B7B7B29;
 }
@@ -12,9 +14,9 @@ h1 {
 }
 
 .container-box-one {
-    marin-left: 100px;
-    width: 300px;
-    height: 300px;
+    margin-left: 150px;
+    width: 250px;
+    height: 250px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 2px solid gray;
     border-radius: 10px;
@@ -24,51 +26,57 @@ h1 {
 
 .container-box-two {
     left: 100px;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background: 2px solid gray;
     border: 2px solid gray;
     border-radius: 10px;
-    margin-left: 350px;
-    margin-top: -320px;
+    margin-left: 430px;
+    margin-top: -270px;
 
 }
 
 .container-box-three {
     left: 100px;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 2px solid gray;
     border-radius: 10px;
-    margin-left: 700px;
-    margin-top: -318px;
+    margin-left: 710px;
+    margin-top: -270px;
 }
 
 .container-box-four {
-    left: 100px;
-    width: 300px;
-    height: 300px;
+    margin-left: 150px;
+    width: 250px;
+    height: 250px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 2px solid gray;
     border-radius: 10px;
+    margin-top: 30px;
 }
 
 .container-box-five {
-    left: 100px;
-    width: 300px;
-    height: 300px;
+    left: 150px;
+    width: 250px;
+    height: 250px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 2px solid gray;
     border-radius: 10px;
-    margin-left: 350px;
-    margin-top: -320px;
+    margin-left: 430px;
+    margin-top: -270px;
 }
 
 p {
     text-align: center;
     font: normal normal medium 20px/24px Inter;
     color: #00A5EC;
+}
+.header {
+    margin-left:20px ;
+    margin-right: 200px;
+    padding-left: 20%;
 }
 
 input {
@@ -152,7 +160,7 @@ p {
 
 .task {
     font: normal normal normal 16px/20px Inter;
-    color: gray;
+    color:blue;
     text-decoration: none;
 }
 
@@ -189,7 +197,7 @@ h6{
     text-decoration: none;
 }
 .my-text {
-    color: #C2C2C2;
+    color: blue;
     margin-left: 150px;
 
 }
@@ -212,8 +220,8 @@ h6{
     background-color:#FFFFFF;
     filter: brightness(-30px);
     border-radius: 10px;
-    margin-left: 380px;
-    margin-top: -650px;
+    margin-left: 350px;
+    margin-top: -580px;
 }
 .box-1 {
     float: left;
@@ -225,8 +233,12 @@ h6{
     margin: 5px;
     margin-left: -50px;
     color: #424242;
-    margin-top: -10px;
+    margin-top: -50px;
 }
+#my-span {
+    margin-top: -5px;
+}
+
 #target {
     color: #c2c2c2;
     background-color: #424242;
@@ -312,12 +324,24 @@ h6{
     margin-right: 300px;
 }
 #my-div-container {
-    margin-top: -720px;
+    margin-top: -650px;
+    margin-left: 470px;
 }
 lable {
  text-align: center;
 }
-@media screen and (min-width:320px) and (max-width:480px) {
+
+.idndex4 {
+    text-decoration:none;
+    font-size: 20px;
+    margin-left: 650px;
+    color: blue;
+
+}
+#index4 {
+    text-decoration: none;
+}
+@media only screen and (min-width:720px) and (max-width:880px) {
    .container-box-one{
     display: block;
    } 
